@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Assignment3/Part1/style.css">
+    <link rel="stylesheet" href="/Part1/style.css">
 </head>
 <body>
     <main>
@@ -15,19 +15,23 @@
             <p class="Instructions">
                 Enter Subtotal and Tax Rate and press "Calculate".
             </p>
-     <form action ="nextPage.html">
+            <div id="inputsection">
                 Subtotal: <input type="text" id="subtotal"><br>
-                Tax Rate: <input type="text" id="taxrate"><br>
+                Tax Rate (%): <input type="text" id="taxrate"><br>
                 Sales Tax: <input type="text" id="salestax" disabled><br>
                 Total: <input type="text" id="total" disabled><br>
             </div>
-            <div class="buttons">
-                <button type="button" id="Calculate">Calculate</button>&nbsp;
-                <button type="button" id="Clear">Clear</button>
+                <div class="buttons">
+                    <button type="button" id="Calculate">Calculate</button>&nbsp;
+                    <button type="button" id="Clear">Clear</button>
+                </div>
             </div>
-        </form>
+            <div id="credentials">
+                Name: Tyler Ly<br>
+                Number: n01725055
+            </div>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="/Part1/script.js"></script>
 </body>
 </html>
