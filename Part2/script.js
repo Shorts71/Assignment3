@@ -5,7 +5,11 @@ const processEntry = evt => {
     if (isNaN(Change) || 0 > Change || 99 < Change) {
         alert("Please enter a number between 0 and 99.");
         return;
+    } else {
+        makeChange(Change);
     }
+};
+const makeChange = function(Change) {
     const Quarters = parseInt(Change / 25);
     const quartersremainder = Change % 25;
     const Dimes = parseInt(quartersremainder / 10);

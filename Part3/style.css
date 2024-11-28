@@ -1,0 +1,48 @@
+html, body {
+    margin:0 auto;
+    width: 70%;
+    background-color:lightcoral;
+}
+
+#box {
+    border: solid black 2px;
+    margin-top: 100px;
+    padding:20px;
+}
+
+.Title {
+    margin-left: 10px;
+    font-size: 36px;
+    color:darkgreen;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Instructions {
+    margin-left: 10px;
+    font-size: 24px;
+    width: 90%;
+    text-align: right;
+}
+
+#inputsection {
+    font-size: 18px;
+    line-height: 2em;
+    width: 80%;
+    text-align: right;
+    display: inline-block;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#credentials {
+    font-size: 36px;
+    text-align: center;
+    border: solid black 2px;
+    margin-top: 10px;
+    background-color: lightblue;
+}
