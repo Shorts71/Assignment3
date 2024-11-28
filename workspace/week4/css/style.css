@@ -1,0 +1,39 @@
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(red,green);
+    border-radius: 30px;
+    box-shadow: 20px  20px 15px grey;
+}
+a{
+    display: block;
+}
+body{
+    background-color: lightblue;
+}
+header{
+    background-color: darkblue;
+    border-radius: 30px;
+}
+h1{
+    color:aliceblue;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    background-color: cadetblue;
+    opacity: 0.2;
+}
+p{
+    text-indent:30px;
+}
+.red{
+    color:red;
+}
+.bold{
+    font-weight: bold;
+}
+footer{
+    font-style: italic;
+}

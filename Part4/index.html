@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="mainbox">
+            <p class="Title">Reservation Request</p>
+        <fieldset id="box">
+            <legend>General Information</legend>
+            <div id="General">
+                <label for="arrivaldate">Arrival date:</label>
+                <input type="date" arrivaldate="arrivaldate" id="arrivaldate">
+                <br>
+                <label for="nights">Nights:</label>
+                <input type="text" arrivaldate="nights" id="nights">
+                <br>
+                <label for="adults">Adults:</label>
+                <input type="number" adults="adults" id="adults">
+                <br>
+                <label for="children">Children:</label>
+                <input type="number" children="children" id="children">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset id="box">
+            <legend>Preferences</legend>
+            <div id="Preferences">
+                <label for="roomtype">Room Type:</label>
+                <input type="radio" name="roomtype" id="standard">
+                <label for="standard">Standard</label>  
+                <input type="radio" name="roomtype" id="business">
+                <label for="business">Business</label>
+                <input type="radio" name="roomtype" id="suite">
+                <label for="suite">Suite</label>
+                <br>
+                <label for="bedtype">Bed Type:</label>
+                <input type="radio" name="bedtype" id="king">
+                <label for="king">King</label>  
+                <input type="radio" name="bedtype" id="doubledouble">
+                <label for="doubledouble">Double Double</label>
+                <br>
+                <input type="checkbox" name="smoking" id="smoking">
+                <label for="smoking">Smoking</label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset id="box">
+            <legend>Contact Information</legend>
+            <div id="Contact">
+                <label for="arrivaldate">Name:</label>
+                <input type="text" name="Name" id="Name">
+                <br>
+                <label for="arrivaldate">Email:</label>
+                <input type="email" email="Email" id="Email">
+                <br>
+                <label for="arrivaldate">Phone:</label>
+                <input type="number" phone="phone" id="phone">
+                <br>
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Request">
+        </div>
+
+        <div id="credentials">
+            Name: Tyler Ly<br>
+            Number: n01725055
+        </div>
+    </main>
+    <script src="/Part4/script.js"></script>
+</body>
+</html>

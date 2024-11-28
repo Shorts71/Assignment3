@@ -1,0 +1,11 @@
+body{
+    background-color: yellow;
+}
+.column{
+    float: left;
+    height: 100vh;
+    width: 50%;
+}
+.colum3{
+    display: none;
+}

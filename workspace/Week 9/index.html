@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0 auto;
+            background-color: aquamarine;
+            width: 600px;
+
+        }
+        label{
+            display: inline-block;
+            width: 12em;
+            text-align: right;
+        }
+        span{
+            color: red;
+        }
+        input{
+            margin-left: 1em;
+            margin-right: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="registration" action="secondPage.html">
+        <fieldset>
+            <legend>Registration</legend>
+            <label for="fname">FirstName:</label>
+            <input type="text" name="fname" id="fname">
+            <span>*</span>
+            <br>
+            <label for="lname">LastName:</label>
+            <input type="text" name="lname" id="lname" required>
+            <span>*</span>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autofocus>
+            <span>*</span>
+            <br>
+            <label for="reEmail">Re-Enter Email:</label>
+            <input type="email" name="reEmail" id="reEmail" placeholder="Re enter email address">
+            <span>*</span>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+            <span>*</span>
+            <br>
+            <label for="dob">date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <span>*</span>
+            <br>
+            <label for="courses"># of Courses :</label>
+            <input type="number" name="courses" id="courses">
+            <span>*</span>
+            <br>
+            <p>Choose your fav Course</p>
+            <label for="html">HTML</label>
+            <input type="radio" name="fav_course" id="html"><br>
+
+            <label for="css">HTML</label>
+            <input type="radio" name="fav_course" id="css"><br>
+
+            <label for="js">HTML</label>
+            <input type="radio" name="fav_course" id="js"><br>
+
+            <label for="python">HTML</label>
+            <input type="radio" name="fav_course" id="python"><br>
+
+            <p>COurses you are taking in this semester</p>
+            <label for="html1">HTML</label>
+            <input type="checkbox" name="html1" id="html1"><br>
+
+            <label for="css1">HTML</label>
+            <input type="checkbox" name="css1" id="css1"><br>
+
+            <label for="js1">HTML</label>
+            <input type="checkbox" name="js1" id="js1"><br>
+
+            <label for="python1">HTML</label>
+            <input type="checkbox" name="python1" id="python1"><br>
+            <br>
+            <input type="submit" value="Registration">
+        </fieldset>
+
+    </form>
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>

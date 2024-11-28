@@ -1,0 +1,60 @@
+html, body {
+    margin:0 auto;
+    width: 70%;
+    background-color:lightblue;
+}
+
+#mainbox {
+    border: solid black 2px;
+    margin-top: 100px;
+    padding: 0px 20px 20px 20px;
+}
+
+#box {
+    border: solid black 2px;
+}
+
+.Title {
+    margin-left: 10px;
+    font-size: 36px;
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#General label, #Contact label {
+    width:6em;
+    text-align: left;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+#Preferences label {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#adults, #children {
+    width:40px;
+}
+
+#inputsection {
+    font-size: 24px;
+    margin-left: 10px;
+    width: 49%;
+    text-align: right;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#credentials {
+    font-size: 36px;
+    text-align: center;
+    border: solid black 2px;
+    margin-top: 10px;
+    background-color: lightpink;
+}

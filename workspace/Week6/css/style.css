@@ -1,0 +1,17 @@
+/* @import url("desktop.css") screen;
+@import url("tablet.css") screen and (min-width: 481px) and (max-width: 768px);
+@import url("mobile.css") screen and (min-width: 0px) and (max-width: 480px); */
+
+
+
+
+
+@media screen and(max-width: 480px){
+    body{
+        background-color: brown;
+    }
+    #row{
+        background-color: azure;
+        padding: 10px;
+    }
+}

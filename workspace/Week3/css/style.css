@@ -1,0 +1,39 @@
+body{
+
+    background-color: aquamarine;
+}
+#p1{
+    color: beige;
+}
+
+#p2{
+    color:red
+}
+
+#p3{
+    color: blueviolet;
+}
+
+.common{
+    text-transform: uppercase;
+    font-size: large;
+    line-height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#wrapper{
+
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+body{
+
+}
+
+
+
+id  -- #p1
+class -.common
+*/
