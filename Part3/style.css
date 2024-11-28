@@ -1,7 +1,7 @@
 html, body {
     margin:0 auto;
     width: 70%;
-    background-color:lightcoral;
+    background-color:lightyellow;
 }
 
 #box {
@@ -13,7 +13,7 @@ html, body {
 .Title {
     margin-left: 10px;
     font-size: 36px;
-    color:darkgreen;
+    color:red;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -21,16 +21,15 @@ html, body {
 .Instructions {
     margin-left: 10px;
     font-size: 24px;
-    width: 90%;
+    width: 60%;
     text-align: right;
 }
 
 #inputsection {
-    font-size: 18px;
-    line-height: 2em;
-    width: 80%;
+    font-size: 24px;
+    margin-left: 10px;
+    width: 49%;
     text-align: right;
-    display: inline-block;
 }
 
 .buttons {
